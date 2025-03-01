@@ -6,7 +6,7 @@
   -data_analysis.ipynb: Jupyter notebook that contains the analysis and visualization steps applied to the CSV data.
 
 **Features**
-  -Data Inspection: The notebook performs basic data exploration using methods such as .head(), .tail(), .info(), and .describe() to understand the structure and summary statistics of the                     dataset.
+  -Data Inspection: The notebook performs basic data exploration using methods such as .head(), .tail(), .info(), and .describe() to understand the structure and summary statistics of the dataset.
   -Data Manipulation:
        -Renaming columns for easier understanding.
        -Adding and dropping columns.
@@ -16,7 +16,7 @@
       -Box Plot: Visualizes the relationship between income group and birth rate using boxplot().
       -Scatter Plot / Regression Plot: Uses lmplot() to analyze the relationship between birth rate and internet users.
 
-Data Analysis Workflow
+**Data Analysis Workflow**
   1.Loading the Data: The dataset is loaded from a CSV file using pd.read_csv() and stored in a pandas DataFrame (df).
               df = pd.read_csv(r'C:\\path\\to\\data.csv')
   2.Data Exploration:
@@ -53,7 +53,7 @@ Data Analysis Workflow
           A box plot comparing birth rates across income groups.
           Linear regression plots showing the relationship between internet usage and birth rate.
 
-Example of Data Exploration Output
+**Example of Data Exploration Output**
       df.head()
       This will display the first few rows of the dataset to give you an idea of what the data looks like.
 
