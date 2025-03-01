@@ -2,7 +2,7 @@
   This repository contains Python code for analyzing and visualizing data from a CSV file (data.csv). The project utilizes Pandas for data manipulation, and Matplotlib and Seaborn for data visualization. The dataset contains information about countries, including their birth rate, internet usage, and income group. Various analyses are performed, including filtering, statistical analysis, and visualizations.
 
 **Project Structure**
-  -data.csv: The dataset containing country-related data such as country name, country code, birth rate, internet users, and income group.
+  -data.csv: The dataset containing country-related data such as country name, country code, birth rate, internet users, and income group.  
   -data_analysis.ipynb: Jupyter notebook that contains the analysis and visualization steps applied to the CSV data.
 
 **Features**
